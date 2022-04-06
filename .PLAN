@@ -9,19 +9,19 @@
 
 FrontEnd form used to send BulkEmails
 -------
-Subject field for file name of the template to send and email subject 
+Subject field for file name of the template to send and email subject
     - different campaigns will use different templates/email subjects
-    - dropdown for all available templates 
+    - dropdown for all available templates
 Upload list of emails file // for now this will stay as testmail
-Submit to send BulkEmail 
+Submit to send BulkEmail
 
 BackEnd starts
 -------
-Open file list of email addreses
+Open file list of email addresses
 Send html template to each email separately
 When email fails to send, continue to the next email until the last line or end of file
 Close list file
-Delete list file when BulkEmailer sends email to all of the lines 
+Delete list file when BulkEmailer sends email to all of the lines
 
 Track when email was opened
 Send email to myself when opened with email of opener
