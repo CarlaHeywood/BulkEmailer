@@ -18,7 +18,7 @@ python emailer.py
 Confirm results in browser using http://127.0.0.1:5000/
 
 ## Contributing
- A worker of mine, Justin, inspired me to get this project going. He had the idea to send out emails to our clients using the BCC feature on Gmail. I tried this for some emails and found that this method is ineffective. Mostly showing up in the junk folder or getting blocked due to hidden recipents. There are similar paid services for this like MailChimp and Constant Contact, but I knew I could devlop something simple and tailored to our needs. Here is the extremely simple email blaster, BulkEmailer - Developed by Carla Heywood. 
+ A co-worker of mine, Justin, inspired me to get this project going. He had the idea to send out emails to our clients using the BCC feature on Gmail. I tried this for some emails and found that this method is ineffective. Mostly showing up in the junk folder or getting blocked due to hidden recipents. There are similar paid services for this like MailChimp and Constant Contact, but I knew I could devlop something simple and tailored to our needs. Here is the extremely simple email blaster, BulkEmailer - Developed by Carla Heywood. 
 
  Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
