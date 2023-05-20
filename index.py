@@ -6,8 +6,8 @@ import pandas as pd
 import csv
 import os
 
-# app = Flask(__name__)
-app = Sanic()
+app = Flask(__name__)
+# app = Sanic()
 
 # Flask-Mail configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
