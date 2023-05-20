@@ -61,7 +61,7 @@ def sendBulkEmail():
                 msg.attach(html_file.filename, 'text/html', html_file.read())
             mail.send(msg)
 
-    return render_template('success.html')
+    return success()
 
 @app.route('/send_single_email', methods=['POST'])
 def send_single_email():
@@ -71,6 +71,10 @@ def send_single_email():
     msg.body = 'Hello, Happy ' + day_name + '! \n\nThank you for checking out my project. \nThis message was sent in ' + current_year + ' from BulkEmailer.py using Flask Mail. \n\nMake it a great day!\ncarlaheywood24@gmail.com"'
     mail.send(msg)
 
+    return success()
+
+@app.route('/success')
+def success():
     return render_template('success.html')
 
 # if __name__ == '__main__':
