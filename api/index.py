@@ -25,6 +25,8 @@ current_year = today.year
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    print("CURRENT DIR:")
+    print(os.getcwd())
     return render_template('index.html', current_year=current_year)
 
 @app.route('/sendBulkEmail', methods=['POST'])
