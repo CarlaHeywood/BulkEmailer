@@ -1,5 +1,4 @@
 from datetime import datetime
-from sanic import Sanic
 from flask import Flask, render_template, request, render_template_string
 from flask_mail import Mail, Message
 import pandas as pd
@@ -7,7 +6,6 @@ import csv
 import os
 
 app = Flask(__name__)
-# app = Sanic()
 
 # Flask-Mail configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
