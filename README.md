@@ -4,7 +4,7 @@ BulkEmailer.py is a simplified email blaster. Enter your Gmail, upload the email
 
 <a href="">Demo Link</a>
 
-<img src="https://raw.githubusercontent.com/CarlaHeywood/BulkEmailer/bulkemailer.py/static/Screenshot.png" width="100%">
+<img src="https://raw.githubusercontent.com/CarlaHeywood/BulkEmailer/main/static/Screenshot.png" width="100%">
 
 ## Set up
 
