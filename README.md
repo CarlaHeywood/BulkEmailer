@@ -2,7 +2,7 @@
 
 BulkEmailer.py is a simplified email blaster. Enter your Gmail, upload the email template you would like to send out, then upload your CSV email list. Sending hunrededs of emails without ending up in the junk folder made quick and easy.
 
-<a href="">Demo Link</a>
+<a href="https://bulkemailerpy.vercel.app/">Demo Link</a>
 
 <img src="https://raw.githubusercontent.com/CarlaHeywood/BulkEmailer/main/static/Screenshot.png" width="100%">
 
