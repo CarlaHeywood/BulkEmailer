@@ -71,5 +71,5 @@ def send_single_email():
 
     return render_template('success.html')
 
-if __name__ == '__main__':
-    app.run(debug=False)
+# if __name__ == '__main__':
+#     app.run(debug=False)
