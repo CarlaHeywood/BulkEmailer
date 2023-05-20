@@ -3,4 +3,3 @@ Flask-Mail
 pandas
 datetime
 python-dotenv
-sanic
