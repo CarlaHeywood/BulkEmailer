@@ -1,9 +1,12 @@
 from datetime import datetime
 from flask import Flask, render_template, request, render_template_string
 from flask_mail import Mail, Message
+from dotenv import load_dotenv
 import pandas as pd
 import csv
 import os
+
+load_dotenv()
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = SECRET_KEY = os.urandom(12)
