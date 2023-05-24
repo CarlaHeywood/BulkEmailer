@@ -77,5 +77,5 @@ def send_single_email():
 def success():
     return render_template('success.html')
 
-# if __name__ == '__main__':
-#     app.run(debug=False)
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0', port=3000)
