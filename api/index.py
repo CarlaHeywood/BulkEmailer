@@ -69,7 +69,7 @@ def send_single_email():
     email = request.form.get('email')
 
     msg = Message('Hi there, it\'s Carla!', sender = ('Carla Heywood', 'carlaheywood24@gmail.com'), recipients = [email])
-    msg.body = 'Hello, Happy ' + day_name + '! \n\nThank you for checking out my project. \nThis message was sent in ' + current_year + ' from BulkEmailer.py using Flask Mail. \n\nMake it a great day!\ncarlaheywood24@gmail.com"'
+    msg.body = 'Hello, Happy ' + day_name + '! \n\nThank you for checking out my project. \nThis message was sent in ' + str(current_year) + ' from BulkEmailer.py using Flask Mail. \n\nMake it a great day!\ncarlaheywood24@gmail.com"'
     mail.send(msg)
 
     return success()
