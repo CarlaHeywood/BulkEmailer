@@ -6,6 +6,7 @@ import csv
 import os
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = SECRET_KEY = os.urandom(12)
 
 # Flask-Mail configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
