@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-app = Flask(__name__, static_url_path='./static', template_folder='./templates')
+app = Flask(__name__, static_url_path='../static', template_folder='../templates')
 app.config['SECRET_KEY'] = SECRET_KEY = os.urandom(12)
 
 # Flask-Mail configuration
