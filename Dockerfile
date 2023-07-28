@@ -7,4 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./bulkemailer.py" ]
+ENV PORT=5000
+EXPOSE 5000
+
+CMD [ "python", "bulkemailer.py" ]
