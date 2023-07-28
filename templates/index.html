@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Email Sender</title>
+    <title>BulkEmailer.py | Carla Heywood</title>
     <link rel="icon" href="static/favicon.svg" sizes="any" type="image/svg+xml">
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
@@ -45,7 +45,7 @@
           <p class="mb-4 text-gray-700">
             Upload a list of contacts to send an email to.<br />Download
             <a
-              href="{{ url_for('static', filename='/Example.csv') }}"
+              href="{{ url_for('static', filename='Example.csv') }}"
               download
               class="text-pink-500"
               >Example.CSV</a
@@ -53,7 +53,7 @@
             You can also upload and HTML template to use for the email.
             <br />Download
             <a
-              href="{{ url_for('static', filename='/ExampleEmail.html') }}"
+              href="{{ url_for('static', filename='ExampleEmail.html') }}"
               download
               class="text-pink-500"
               >ExampleEmail.html</a
