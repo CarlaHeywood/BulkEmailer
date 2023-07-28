@@ -17,9 +17,9 @@ https://myaccount.google.com/apppasswords
 
 ```bash
 pip install -r requirements.txt
-virtualenv env
-source env/bin/activate
-python emailer.py
+virtualenv venv
+source venv/bin/activate
+python bulkemailer.py
 ```
 
 Confirm results in browser using http://127.0.0.1:5000/
